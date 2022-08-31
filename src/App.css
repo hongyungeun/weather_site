@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Desktop-Picture.jpg) center / cover no-repeat ;
+}
+.container_wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255, 255, 255, 0.76);
+  padding: 40px;
+  border-radius: 15px;
+  
+}
+.loding {
+  position: fixed;
+  z-index: 100;
+  top: 41%;
+  left: 44%;
+  transform: translate(-50%,-50%);
+}
